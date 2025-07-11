@@ -15,6 +15,10 @@ const translations: Record<string, Record<string, string>> = {
         about: 'About Us',
         selectLanguage: 'Select Language:',
         selectCurrency: 'Select Currency:',
+        prices: 'Prices',
+        item_a: 'Item A',
+        item_b: 'Item B',
+        item_c: 'Item C',
     },
     id: {
         welcome: 'Selamat Datang',
@@ -22,6 +26,10 @@ const translations: Record<string, Record<string, string>> = {
         about: 'Tentang Kami',
         selectLanguage: 'Pilih Bahasa:',
         selectCurrency: 'Pilih Mata Uang:',
+        prices: 'Harga',
+        item_a: 'Item A',
+        item_b: 'Item B',
+        item_c: 'Item C',
     },
 };
 

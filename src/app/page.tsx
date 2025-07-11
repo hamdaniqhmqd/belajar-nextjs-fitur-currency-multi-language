@@ -17,19 +17,19 @@ export default function Home() {
         </div>
 
         {/* Section for Dynamic Prices */}
-        <h2 className="text-2xl font-bold text-slate-100 mb-4">Prices</h2>
+        <h2 className="text-2xl font-bold text-slate-100 mb-4" rt-text="prices">Prices</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           <div className="bg-yellow-950 p-4 rounded-md shadow-sm border border-yellow-500 flex items-center justify-between">
             <span className="text-lg font-bold text-yellow-100" rt-price="true">100.95</span>
-            <span className="text-sm text-slate-200">Item A</span>
+            <span className="text-sm text-slate-200" rt-text="item_a">Item A</span>
           </div>
           <div className="bg-purple-950 p-4 rounded-md shadow-sm border border-purple-500 flex items-center justify-between">
             <span className="text-lg font-bold text-purple-100" rt-price="true">250.83</span>
-            <span className="text-sm text-slate-200">Item B</span>
+            <span className="text-sm text-slate-200" rt-text="item_b">Item B</span>
           </div>
           <div className="bg-red-950 p-4 rounded-md shadow-sm border border-red-500 flex items-center justify-between">
             <span className="text-lg font-bold text-red-100" rt-price="true">500.56</span>
-            <span className="text-sm text-slate-200">Item C</span>
+            <span className="text-sm text-slate-200" rt-text="item_c">Item C</span>
           </div>
           {/* Add more rt-price elements here, each in its own card */}
         </div>
