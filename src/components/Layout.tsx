@@ -27,9 +27,9 @@ const translations: Record<string, Record<string, string>> = {
         selectLanguage: 'Pilih Bahasa:',
         selectCurrency: 'Pilih Mata Uang:',
         prices: 'Harga',
-        item_a: 'Item A',
-        item_b: 'Item B',
-        item_c: 'Item C',
+        item_a: 'Barang A',
+        item_b: 'Barang B',
+        item_c: 'Barang C',
     },
 };
 
